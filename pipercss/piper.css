@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    text-decoration: none;
+    background-color: #007765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header__nav{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+li a{
+    margin-left: 23px;
+}
+
+.section{
+    position: relative;
+}
+
+.section img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.section p{
+    position: absolute;
+    top: 37%;
+    right: 37%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section .second{
+    position: absolute;
+    top: 17%;
+    left: 36%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.theproblem{
+    text-align: center;
+    margin: 45px 0px;
+}
+.container{
+    max-width: 1219px;
+    padding: 0 55px;
+    margin: 30px 30px;
+}
+
+.theproblem__title{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #007765;
+}
+.theproblem__subtitle p{
+    margin-bottom: 20px;
+}
+
+
+
+
+.piperpiend{
+    text-align: center;
+    margin: 45px 0px;
+}
+.container{
+    max-width: 1219px;
+    padding: 0 55px;
+}
+
+.piperpiend__title{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #007765;
+}
+.piperpiend__subtitle p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.team{
+    background-color: #eeeeee;
+}
+.team__title{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #007765;
+    text-align: center;
+}
+
+.team__members{
+    text-align: center;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.item__title{
+    font-size: 24px;
+    color: #007765;
+}
+.item__subtitle{
+    font-size: 18px;
+}
+
+
+.footer{
+    text-align: center;
+    background: #333333;
+    color: white;
+}
+
+.footer__text{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
